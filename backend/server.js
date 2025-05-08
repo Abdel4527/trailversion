@@ -19,7 +19,7 @@ const app = express();
 app.use(express.json());
 
 const allowedOrigins = [
-  "https://trailversion-x58g.vercel.app/", // your frontend Vercel deployment
+  "https://trailversion-x58g.vercel.app", // your frontend Vercel deployment
   "http://localhost:3000" // local dev (optional)
 ];
 app.use(cors({
